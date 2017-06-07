@@ -121,14 +121,14 @@ toc:
 
 # SNS Menu
 sns:
-    email:
+    email: tech@geekpark.net
     facebook:
-    twitter:
+    twitter: https://twitter.com/GeekParkNet
     googleplus:
-    weibo:
+    weibo: https://weibo.com/geekpark
     instagram:
     tumblr:
-    github:
+    github: https://github.com/geekpark
     linkedin:
     zhihu:
     bilibili:
@@ -163,10 +163,14 @@ sidebar:
         icon: chrome_reader_mode
         divider: false
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        新同学指南:
+            link: "/new"
+            icon: person
+            divider: false
+        关于:
+            link: "/about"
+            icon: person
+            divider: false
     article_num:
         use: false
         divider: false
@@ -211,8 +215,8 @@ search:
 # Available value:
 #     baidu | google | cnzz
 analytics:
-    use:
-    site_id:
+    use: google
+    site_id: UA-55162792-11
 
 # Leancloud Views
 leancloud:
@@ -223,7 +227,7 @@ leancloud:
 
 # Busuanzi 不蒜子 Views
 busuanzi:
-    enable: false
-    all_site_uv: false
-    post_pv: false
+    enable: true
+    all_site_uv: true
+    post_pv: true
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
